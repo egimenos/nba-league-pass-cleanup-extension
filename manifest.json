@@ -1,0 +1,13 @@
+{
+  "name": "League Pass game thumbnail remover",
+  "description": "Extension to remove thumbnail images for NBA League pass game in order to avoid spoilers",
+  "version": "1",
+  "manifest_version": 2,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": "*.nba.com/game*",
+      "js": "content.js"
+    }
+  ]
+}
