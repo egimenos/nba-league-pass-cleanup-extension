@@ -6,8 +6,8 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": "*.nba.com/game*",
-      "js": "content.js"
+      "matches": ["https://www.nba.com/game/*"],
+      "js": ["content.js"]
     }
   ]
 }
