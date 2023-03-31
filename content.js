@@ -3,7 +3,6 @@ window.onload = (function () {
     _mutations,
     _mutationInstance
   ) {
-    console.log("wrapper");
     const backgroundWrapper = document.querySelector(".content-poster");
     if (backgroundWrapper) {
       backgroundWrapper.style.display = "none";
