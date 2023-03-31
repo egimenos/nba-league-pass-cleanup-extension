@@ -1,4 +1,4 @@
-# Description
+## Description
 
 This browser extension was designed to improve the user experience when watching NBA League Pass games. The extension has two main functionalities:
 
